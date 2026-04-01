@@ -1,6 +1,6 @@
 #formulario {
     display: flex;
-    margin-top: 3rem;
+    margin-top: 2rem;
     align-items: center; 
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
 
 #formulario  h1{
     margin-right: 27rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5srem;
     color: var(--branco);
 }
 
@@ -19,7 +19,7 @@
 #formulario form label input, #formulario form label textarea {
     width: 100%;
     border: none;
-    padding: .8rem;
+    padding: .5rem;
     margin-bottom: 1rem;
     border-radius: 10px;
 }
@@ -28,7 +28,7 @@
     border-radius: 50px;
 }
 
-#formulario form input[type="submit"] {
+#formulario form button[type="submit"] {
     width: 6rem;
     border: none;
     padding: .3rem;
