@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <html lang="pt-br">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Poppins", sans-serif;
+            }
+
+            body {
+                background-color: var(--azul-escuro);
+            }
+
+            .container {
+                padding: 1rem 10rem;
+            }
+        </style>
+
+        <link rel="stylesheet" href="./src/css/style.css">
+
+        <title>IndieGame</title>
+    </head>
+
+    <body>
+        <header id="cabecalho" class="container">
+            <nav>
+                <div class="cabecalho_content-logo">
+                    <h1>IndieGame</h1>
+                    <p>Indie Melhor que AAA</p>
+                </div>
+                <ul class="cabecalho_content-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="cases.html">Cases</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="formulario">
+            <h1>Fale Conosco</h1>
+            <form action="" >
+                <label for="nome">
+                    <p style="color: white;">Nome</p>
+                    <input id="nome" name="nome" type="text">
+                </label>
+
+                <label for="email">
+                    <p style="color: white;">Email</p>
+                    <input id="email" name="email" type="email">
+                </label>
+
+                <label for="assunto">
+                    <p style="color: white;">Assunto</p>
+                    <input id="assunto" name="assunto" type="assunto">
+                </label>
+
+                <label for="mensagem">
+                    <p style="color: white;">Mensagem</p>
+                    <textarea id="mensagem" name="mensagem" cols="30" rows="10"></textarea>
+                </label>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </main>
+
+        <footer class="container">
+            <ul>
+                <li>
+                    <p>IndieGame@gmail.com</p>
+                </li>
+                <li>
+                    <p>+55 (27) 99999-9999</p>
+                </li>
+                <li>
+                    <p>2026</p>
+                </li>
+            </ul>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+@import url(./cabecalho.css);
+@import url(./principal.css);
+@import url(./rodape.css);
+@import url(./tabela.css);
+@import url(./games.css);
+@import url(./contato.css);
+
+@font-face {
+    font-family: "Poppins";
+    src: url(../font/Poppins-Regular.ttf);
+}
+
+:root {
+    --preto: #000000;
+    --cinza: #E5E5E5;
+    --branco: #FFFFFF;
+    --laranja: #FCA311;
+    --azul-escuro: #14213D;
+}

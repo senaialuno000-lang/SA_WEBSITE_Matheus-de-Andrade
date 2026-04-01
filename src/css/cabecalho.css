@@ -1,0 +1,31 @@
+#cabecalho {
+    background-color: var(--laranja);
+}
+
+#cabecalho nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#cabecalho .cabecalho_content-logo h1 {
+    font-size: 3rem;
+}
+
+#cabecalho .cabecalho_content-nav {
+    gap: 3rem;
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: row;
+}
+
+#cabecalho .cabecalho_content-nav li {
+    list-style: none;
+}
+
+#cabecalho .cabecalho_content-nav li a {
+    color: var(--branco);
+    text-decoration: none;
+    transition: all 0.3s ease;
+}

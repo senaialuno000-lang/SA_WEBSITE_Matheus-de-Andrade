@@ -1,0 +1,29 @@
+#games ul {
+    gap: 2rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#games li {
+    width:  90%;
+    list-style: none;
+}
+
+#games li article {
+    display: flex;
+    padding: .8rem;
+    height: 30rem;
+    border-radius: 10px;
+    flex-direction: column;
+    background-color: var(--branco);
+}
+
+#games li article figure {
+    width: 27rem;
+}   
+
+#games li article figure img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
